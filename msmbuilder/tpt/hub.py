@@ -123,7 +123,7 @@ def hub_scores(msm, waypoints=None):
 
     hub_scores = []
     for waypoint in waypoints:
-        other_states = (i for i in xrange(n_states) if i != waypoint)
+        other_states = (i for i in range(n_states) if i != waypoint)
 
         # calculate the hub score for this waypoint
         hub_score = 0.0
