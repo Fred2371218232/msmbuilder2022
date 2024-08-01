@@ -24,7 +24,6 @@ def setup():
     Y_rmsd.center_coordinates()
     X_indices = random.randint(0, 10, size=5).astype(np.intp)
 
-
 def test_assign_nearest_double_float_1():
     # test without X_indices
     for metric in VECTOR_METRICS:
