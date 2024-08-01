@@ -23,7 +23,6 @@ def setup():
     X_rmsd.center_coordinates()
     Y_rmsd.center_coordinates()
     X_indices = random.randint(0, 10, size=5).astype(np.intp)
-    print(X_rmsd)
 
 def test_assign_nearest_double_float_1():
     # test without X_indices
